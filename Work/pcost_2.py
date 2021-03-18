@@ -1,5 +1,6 @@
 def portfolio_cost(filename):
-    Total = 0
+    '''Computes the total cost(shares*price) of a portfolio file'''
+	Total = 0.0
 
     f = open(filename, 'rt')
     headers = next(f)
